@@ -10,11 +10,11 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
-        <Head title="Hello" isActive={true}/>
-        <Types /> 
-        <Functions />
-        <BasicButton />
+      <Header />
+      <Head title="Hello" isActive={true} />
+      <Types />
+      <Functions />
+      <BasicButton />
     </div>
   );
 }

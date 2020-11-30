@@ -2,7 +2,7 @@ import React from 'react'
 
 const Functions = () => {
 
-    const sayWord = (word : string) : string => {
+    const sayWord = (word: string): string => {
         console.log(word)
         return word;
     }

@@ -6,7 +6,7 @@ type Props = {
     isActive: boolean
 }
 
-export const Head = ({title , isActive} : Props) => {
+export const Head = ({ title, isActive }: Props) => {
     return (
         <div>
             <h1>{title}</h1>
